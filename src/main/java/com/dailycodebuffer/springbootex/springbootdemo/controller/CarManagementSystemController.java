@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CarManagementSystemController {
     @GetMapping("/msg")
     public String getMessage(){
-        return "Tis is first APP";
+        return "This is first APP for Car Rental System";
     }
 }
